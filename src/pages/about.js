@@ -1,15 +1,12 @@
 import * as React from 'react'
-import {Link} from 'gatsby'
-
+import Layout from '../components/layout'
 const AboutPage = () => {
     return (
-        <main>
-            <title>About me</title>
-            <Link to="/">Go back to Home</Link>
-            <h1>About me</h1>
-            <p>Hi there! I'm proud creator of this site, which I build with Gatsby.</p>
-        </main>
-    )
+        <Layout pageTitle="About Me">
+          <p>I'm making this by following the Gatsby Tutorial.</p>
+          <p>Testing to see if this also shows up as part of children.</p>
+        </Layout>
+      )
 }
 
 export default AboutPage
